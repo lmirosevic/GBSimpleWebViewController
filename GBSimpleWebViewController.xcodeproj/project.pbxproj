@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8AABF9F917B91ADD007C03A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AABF9F817B91ADD007C03A5 /* Foundation.framework */; };
+		8AABFA1717B91B30007C03A5 /* GBSimpleWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AABFA1617B91B30007C03A5 /* GBSimpleWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,8 @@
 		8AABF9F517B91ADD007C03A5 /* libGBSimpleWebViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGBSimpleWebViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AABF9F817B91ADD007C03A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8AABF9FC17B91ADD007C03A5 /* GBSimpleWebViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GBSimpleWebViewController-Prefix.pch"; sourceTree = "<group>"; };
+		8AABFA1517B91B30007C03A5 /* GBSimpleWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBSimpleWebViewController.h; sourceTree = "<group>"; };
+		8AABFA1617B91B30007C03A5 /* GBSimpleWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBSimpleWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 		8AABF9FA17B91ADD007C03A5 /* GBSimpleWebViewController */ = {
 			isa = PBXGroup;
 			children = (
+				8AABFA1517B91B30007C03A5 /* GBSimpleWebViewController.h */,
+				8AABFA1617B91B30007C03A5 /* GBSimpleWebViewController.m */,
 				8AABF9FB17B91ADD007C03A5 /* Supporting Files */,
 			);
 			path = GBSimpleWebViewController;
@@ -132,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AABFA1717B91B30007C03A5 /* GBSimpleWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
